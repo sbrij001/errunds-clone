@@ -1,5 +1,5 @@
 import React from 'react';
-import {addItem} from '../actions';
+import {addItem, removeItem} from '../actions';
 
 function App() {
   return (

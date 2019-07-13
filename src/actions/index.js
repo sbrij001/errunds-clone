@@ -9,3 +9,12 @@ export const addItem = (item, price) => {
     }
   };
 };
+
+export const removeItem = (itemName) => {
+  return{
+    type: 'REMOVE_ITEM',
+    payload: {
+      itemName: itemName
+    }
+  };
+};
